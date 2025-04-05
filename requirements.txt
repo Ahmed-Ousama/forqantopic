@@ -1,0 +1,9 @@
+litellm
+openai
+numpy
+scikit-learn
+umap-learn
+hdbscan
+fireducks
+plotly
+nbformat

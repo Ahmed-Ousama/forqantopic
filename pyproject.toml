@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forqantopic"
+version = "0.1.0"
+description = "Unsupervised topic modeling pipeline"
+authors = [{ name = "Ahmed Ousama" }]
+dependencies = [
+    "numpy",
+    "fireducks",
+    "scikit-learn",
+    "hdbscan",
+    "umap-learn",
+    "litellm",
+    "plotly",
+    "nbformat"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
