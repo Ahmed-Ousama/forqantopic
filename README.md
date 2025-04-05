@@ -41,7 +41,7 @@ pip install -e .
 Or install from source after cloning:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Ahmed-Ousama/forqantopic.git
 cd forqantopic
 pip install -r requirements.txt
 ```
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ## ⚡ Quick Example
 
 ```python
-from forqantopic.core import ForqanTopic
+from forqantopic import ForqanTopic
 
 texts = [
     "AI is transforming healthcare.",
