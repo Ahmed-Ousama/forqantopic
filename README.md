@@ -130,9 +130,7 @@ ForqanTopic(
     reducer_method="umap",
     clustering_method="hdbscan",
     n_components=5,
-    n_clusters=None,
-    label_mode="llm",
-    label_map=None
+    n_clusters=None
 )
 ```
 
